@@ -18,17 +18,20 @@ songtitle.innerHTML = 'Testing'
 SongArtist.innerHTML = 'Test'
 */
 
-const channel = new BroadcastChannel('Music');
+var channel = new BroadcastChannel('Music');
 
 channel.postMessage({ type: 'getSongInfo' });
 
 channel.onmessage = function(event) {
-    const responseData = event.data;
-    const responseType = responseData.type;
+    var responseData = event.data;
+    var responseType = responseData.type;
   
     switch (responseType) {
       case 'getSongInfoR':
-        const info = responseData.info; // Corrected accessing the 'info' property
+        var info = responseData.info; // Corrected accessing the 'info' property
+        console.log(responseData)
+        console.log(responseData.data)
+        console.log(event.data)
         console.log('Received info:', info);
         break;
   
