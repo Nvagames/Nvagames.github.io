@@ -29,7 +29,7 @@ channel.onmessage = function(event) {
   switch (responseType) {
     case 'getSongInfoR':
 
-      const info = responseData.data;
+      const info = responseData;
       console.log('Received info:', info);
       
       break;
