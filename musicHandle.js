@@ -24,17 +24,16 @@ channel.postMessage({ type: 'getSongInfo' });
 
 
 channel.onmessage = function(event) {
-    var responseData = event.data;
-    var responseType = responseData.type;
-  
-    switch (responseType) {
-      case 'getSongInfoR':
-        var info = responseData.data; // Corrected accessing the 'data' property
-       
-        console.log('Received info:', info);
-        break;
-  
-      default:
-        console.log('Received unexpected response type:', responseType);
-    }
+  var responseData = event.data;
+  var responseType = responseData.type;
+
+  switch (responseType) {
+    case 'getSongInfoR':
+      var info = responseData.data;
+      console.log('Received info:', info);
+      break;
+
+    default:
+      console.log('Received unexpected response type:', responseType);
+  }
 };
