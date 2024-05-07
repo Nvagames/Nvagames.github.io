@@ -1,0 +1,86 @@
+{
+    "album": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "ACROSS THE SPIDER‐VERSE: SOUNDTRACK",
+        "BY": "Metro Boomin"
+    },
+
+    "annihilate": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Annihilate",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/annihilate.mp3"
+    },
+    "am i dreaming": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Am I Dreaming",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/am-i-dreaming.mp3"
+    },
+    "all the way live": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "All The Way Live",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/all-the-way-live.mp3"
+    },
+    "danger": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Danger",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/danger.mp3"
+    },
+    "hummingbird": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Hummingbird",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/hummingbird.mp3"
+    },
+    "calling": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Calling",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/calling.mp3"
+    },
+    "silk and cologne": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Silk And Cologne",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/silk-and-cologne.mp3"
+    },
+    "link up": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Link Up",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/link-up.mp3"
+    },
+    "self love": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Self Love",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/self-love.mp3"
+    },
+    "home": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Home",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/home.mp3"
+    },
+    "nonviolent communication": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Nonviolent Communication",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/nonviolent-communication.mp3"
+    },
+    "givin up": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Givin Up",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/givin-up.mp3"
+    },
+    "nas morales": {
+        "COVER": "./assets/covers/SPIDERAC.png",
+        "TITLE": "Nas Morales",
+        "BY": "Metro Boomin",
+        "path": "./assets/music/SPIDERAC/nas-morales.mp3"
+    }
+}

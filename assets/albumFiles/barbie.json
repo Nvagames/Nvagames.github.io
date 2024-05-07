@@ -1,0 +1,15 @@
+{
+    "album": {
+        "COVER": "./assets/covers/ICEBARBIE.png",
+        "TITLE": "Barbie World",
+        "BY": "Ice Spice & Nicki Minaj"
+    },
+
+    "barbie world": {
+        "COVER": "./assets/covers/ICEBARBIE.png",
+        "TITLE": "Barbie World",
+        "BY": "Ice Spice & Nicki Minaj",
+        "path": "./assets/music/barbiewrld/barbieWRLDE.mp3"
+    }
+   
+}

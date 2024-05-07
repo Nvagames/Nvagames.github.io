@@ -1,0 +1,110 @@
+{
+    "album": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Mr. Davis",
+        "BY": "Gucci Mane"
+    },
+
+    "work in progress": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Work In Progress",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/work-in-progress.mp3"
+    },
+    "back on": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Back On",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/back-on.mp3"
+    },
+    "i get the bag": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "I Get The Bag",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/i-get-the-bag.mp3"
+    },
+    "stunting aint nuthin": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Stunting Aint Nuthin",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/stunting-aint-nuthin.mp3"
+    },
+    "curve": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Curve",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/curve.mp3"
+    },
+    "enormous": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Enormous",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/enormous.mp3"
+    },
+    "members only": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Members Only",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/members-only.mp3"
+    },
+    "money make ya handsome": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Money Make Ya Handsome",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/money-make-ya-handsome.mp3"
+    },
+    "changed": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Changed",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/changed.mp3"
+    },
+    "we ride": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "We Ride",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/we-ride.mp3"
+    },
+    "lil story": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Lil Story",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/lil-story.mp3"
+    },
+    "tone it down": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Tone It Down",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/tone-it-down.mp3"
+    },
+    "make love": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Make Love",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/make-love.mp3"
+    },
+    "money piling": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Money Piling",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/money-piling.mp3"
+    },
+    "jumped out the whip": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Jumped Out The Whip",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/jumped-out-the-whip.mp3"
+    },
+    "miss my woe": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Miss My Woe",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/miss-my-woe.mp3"
+    },
+    "made it": {
+        "COVER": "./assets/covers/guccimane/mrdavis.jpeg",
+        "TITLE": "Made It",
+        "BY": "Gucci Mane",
+        "path": "./assets/music/guccimane/mrdavis/made-it.mp3"
+    }
+}

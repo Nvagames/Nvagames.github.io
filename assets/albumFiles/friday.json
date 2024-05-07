@@ -1,0 +1,98 @@
+{
+    "album": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Friday",
+        "BY": "Various Artists"
+    },
+
+    "friday": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Friday",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/friday.mp3"
+    },
+    "keep their heads ringin": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Keep Their Heads Ringin",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/keep-their-heads-ringin.mp3"
+    },
+    "friday night": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Friday Night",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/friday-night.mp3"
+    },
+    "lettin niggas know": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Lettin Niggas Know",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/lettin-niggas-know.mp3"
+    },
+    "roll it up, light it up, smoke it up": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Roll It Up, Light It Up, Smoke It Up",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/roll-it-up-light-it-up-smoke-it-up.mp3"
+    },
+    "take a hit": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Take A Hit",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/take-a-hit.mp3"
+    },
+    "tryin to see another day": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Tryin To See Another Day",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/tryin-to-see-another-day.mp3"
+    },
+    "you got me wide open": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "You Got Me Wide Open",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/you-got-me-wide-open.mp3"
+    },
+    "mary jane": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Mary Jane",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/mary-jane.mp3"
+    },
+    "i wanna get next to you": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "I Wanna Get Next To You",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/i-wanna-get-next-to-you.mp3"
+    },
+    "superhoes": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Superhoes",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/superhoes.mp3"
+    },
+    "coast ii coast": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Coast II Coast",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/coast-ii-coast.mp3"
+    },
+    "blast if i have to": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Blast If I Have To",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/blast-if-i-have-to.mp3"
+    },
+    "hoochie mama": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "Hoochie Mama",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/hoochie-mama.mp3"
+    },
+    "i heard it through the grapevine": {
+        "COVER": "./assets/covers/FRIDAYICE.jpeg",
+        "TITLE": "I Heard It Through The Grapevine",
+        "BY": "Various Artists",
+        "path": "./assets/music/friday/i-heard-it-through-the-grapevine.mp3"
+    }
+}

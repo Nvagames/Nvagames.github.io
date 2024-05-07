@@ -1,0 +1,15 @@
+{
+    "album": {
+        "COVER": "./assets/covers/IWANTSOMEFRIED.jpeg",
+        "TITLE": "Rags2Riches",
+        "BY": "Rod Wave"
+    },
+
+    "rags2riches": {
+        "COVER": "./assets/covers/IWANTSOMEFRIED.jpeg",
+        "TITLE": "Rags2Riches",
+        "BY": "Rod Wave",
+        "path": "./assets/music/IWANTSOMEFRIED.mp3"
+    }
+  
+}

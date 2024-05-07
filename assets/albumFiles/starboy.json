@@ -1,0 +1,116 @@
+{
+    "album": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Starboy",
+        "BY": "The Weeknd"
+    },
+
+    "starboy": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Starboy",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/starboy.mp3"
+    },
+    "party monster": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Party Monster",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/party-monster.mp3"
+    },
+    "false alarm": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "False Alarm",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/false-alarm.mp3"
+    },
+    "reminder": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Reminder",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/reminder.mp3"
+    },
+    "rockin": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Rockin",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/rockin.mp3"
+    },
+    "secrets": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Secrets",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/secrets.mp3"
+    },
+    "true colors": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "True Colors",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/true-colors.mp3"
+    },
+    "stargirl interlude": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Stargirl Interlude",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/stargirl-interlude.mp3"
+    },
+    "sidewalks": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Sidewalks",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/sidewalks.mp3"
+    },
+    "six feet under": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Six Feet Under",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/six-feet-under.mp3"
+    },
+    "love To lay": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Love To Lay",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/love-to-lay.mp3"
+    },
+    "a lonely night": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "A Lonely Night",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/a-lonely-night.mp3"
+    },
+    "attention": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Attention",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/attention.mp3"
+    },
+    "ordinary life": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Ordinary Life",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/ordinary-life.mp3"
+    },
+    "nothing without you": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Nothing Without You",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/nothing-without-you.mp3"
+    },
+    "all i know": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "All I Know",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/all-i-know.mp3"
+    },
+    "die for you": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "Die For You",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/die-for-you.mp3"
+    },
+    "i feel it coming": {
+        "COVER": "./assets/covers/starboy.png",
+        "TITLE": "I Feel It Coming",
+        "BY": "The Weeknd",
+        "path": "./assets/music/starboy/i-feel-it-coming.mp3"
+    }
+}

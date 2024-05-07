@@ -1,0 +1,38 @@
+{
+    "album": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "The Life Of Pablo",
+        "BY": "Kanye West"
+    },
+
+    "ultralight beam": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "Ultralight Beam",
+        "BY": "Kanye West",
+        "path": "./assets/music/TheLifeOfPablo/ultralightbeam.mp3"
+    },
+    "father stretch my hands pt 1": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "Father Stretch My Hands Pt 1",
+        "BY": "Kanye West",
+        "path": "./assets/music/TheLifeOfPablo/fatherstretchmyhandspt1.mp3"
+    },
+    "pt 2": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "Pt 2",
+        "BY": "Kanye West",
+        "path": "./assets/music/TheLifeOfPablo/pt2.mp3"
+    },
+    "famous": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "Famous",
+        "BY": "Kanye West",
+        "path": "./assets/music/TheLifeOfPablo/famous.mp3"
+    },
+    "feedback": {
+        "COVER": "./assets/covers/thelifeofpablo.png",
+        "TITLE": "Feedback",
+        "BY": "Kanye West",
+        "path": "./assets/music/TheLifeOfPablo/feedback.mp3"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "album": {
+        "COVER": "./assets/covers/SEARCH&RESCUE.png",
+        "TITLE": "Search & Rescue",
+        "BY": "Drake"
+    },
+
+    "search & rescue": {
+        "COVER": "./assets/covers/SEARCH&RESCUE.png",
+        "TITLE": "Search & Rescue",
+        "BY": "Drake",
+        "path": "./assets/music/searchandrescue/searchandrescue.mp3"
+    }
+   
+}

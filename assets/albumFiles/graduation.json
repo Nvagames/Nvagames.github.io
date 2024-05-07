@@ -1,0 +1,92 @@
+{
+    "album": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Graduation",
+        "BY": "Kanye West"
+    },
+
+    "good morning": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Good Morning",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/GoodMorning.mp3"
+    },
+    "champion": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Champion",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/Champion.mp3"
+    },
+    "stronger": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Stronger",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/Stronger.mp3"
+    },
+    "i wonder": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "I Wonder",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/IWonder.mp3"
+    },
+    "good life": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Good Life",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/GoodLife.mp3"
+    },
+    "cant tell me nothing": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Cant Tell Me Nothing",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/CantTellMeNothing.mp3"
+    },
+    "barry bonds": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Barry Bonds",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/BarryBonds.mp3"
+    },
+    "drunk and hot girls": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Drunk and Hot Girls",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/DrunkandHotGirls.mp3"
+    },
+    "flashing lights": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Flashing Lights",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/FlashingLights.mp3"
+    },
+    "everything i am": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Everything I Am",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/EverythingIAm.mp3"
+    },
+    "the glory": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "The Glory",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/TheGlory.mp3"
+    },
+    "homecoming": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Homecoming",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/Homecoming.mp3"
+    },
+    "big brother": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Big Brother",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/BigBrother.mp3"
+    },
+    "good night": {
+        "COVER": "./assets/covers/graduation/Graduation.jpeg",
+        "TITLE": "Good Night",
+        "BY": "Kanye West",
+        "path": "./assets/music/graduation/GoodNight.mp3"
+    }
+}

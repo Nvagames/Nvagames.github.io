@@ -1,0 +1,15 @@
+{
+    "album": {
+        "COVER": "./assets/covers/coral.png",
+        "TITLE": "Coral Theme",
+        "BY": "Fortnite"
+    },
+
+    "coral theme": {
+        "COVER": "./assets/covers/coral.png",
+        "TITLE": "Coral Theme",
+        "BY": "Fortnite",
+        "path": "./assets/music/coral.mp3"
+    }
+  
+}

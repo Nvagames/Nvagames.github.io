@@ -1,0 +1,110 @@
+{
+    "album": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "ASTROWORLD",
+        "BY": "Travis Scott"
+    },
+
+    "stargazing": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "Stargazing",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/stargazing.mp3"
+    },
+    "carousel": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "Carousel",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/carousel.mp3"
+    },
+    "sicko mode": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "SICKO MODE",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/sicko mode.mp3"
+    },
+    "rip screw": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "RIP SCREW",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/r.i.p. screw.mp3"
+    },
+    "stop trying to be god": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "STOP TRYING TO BE GOD",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/stop trying to be god.mp3"
+    },
+    "no bystanders": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "NO BYSTANDERS",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/no bystanders.mp3"
+    },
+    "skeletons": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "SKELETONS",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/skeletons.mp3"
+    },
+    "wake up": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "WAKE UP",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/wake up.mp3"
+    },
+    "5% tint": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "5% TINT",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/5 Percent_TINT.mp3"
+    },
+    "nc-17": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "NC-17",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/nc-17.mp3"
+    },
+    "astrothunder": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "ASTROTHUNDER",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/astrothunder.mp3"
+    },
+    "yosemite": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "YOSEMITE",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/yosemite.mp3"
+    },
+    "can't say": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "CAN'T SAY",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/can't say.mp3"
+    },
+    "who? what!": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "WHO? WHAT!",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/who what!.mp3"
+    },
+    "butterfly effect": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "BUTTERFLY EFFECT",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/butterfly effect.mp3"
+    },
+    "houstonfornication": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "HOUSTONFORNICATION",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/houstonfornication.mp3"
+    },
+    "coffee bean": {
+        "COVER": "./assets/covers/astroworld.png",
+        "TITLE": "COFFEE BEAN",
+        "BY": "Travis Scott",
+        "path": "./assets/music/astroworld/coffee bean.mp3"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "album": {
+        "COVER": "./assets/covers/icespice/THINKUTHESHIT.jpeg",
+        "TITLE": "Think U The Shit",
+        "BY": "Ice Spice"
+    },
+
+    "think u the shit": {
+        "COVER": "./assets/covers/icespice/THINKUTHESHIT.jpeg",
+        "TITLE": "Think U The Shit",
+        "BY": "Ice Spice",
+        "path": "./assets/music/icespice/thinkutheshit.mp3"
+    }
+  
+}
