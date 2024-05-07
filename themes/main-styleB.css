@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    background-image: linear-gradient(to bottom right, rgb(46, 80, 95), rgb(29, 29, 29));
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.topnav {
+    width: 97%; 
+    left: 50%;
+    top: 5px;
+    transform: translateX(-50%);
+    border-radius: 15px;
+    height: 45px;
+    position: fixed;
+    transition: 0.5s;
+}
+.topnav:hover {
+    transition: 0.5s;
+    box-shadow: 0px 0px 7px rgb(19, 19, 19);
+    transform: translateX(-50%) scale(1.02);
+}
+
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+  
+.MAINTEXTNAV {
+    top: 0%;
+    left: 50px;
+    position: absolute;
+    transform: translateY(-35%);
+}
+.thememenu {
+    position: fixed;
+    top: 90px;
+    right: 10px;
+    width: 225px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(22, 22, 22);
+    box-shadow: 0px 0px 4px rgb(19, 19, 19);
+
+}
+.themesub {
+    background-color: rgb(27, 42, 53);
+}
+
+.mainmenu {
+    background-color: rgb(28, 45, 58);
+    
+}

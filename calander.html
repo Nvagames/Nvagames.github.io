@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar</title>
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: rgb(19, 19, 19);
+      color: white;
+    }
+    .month-container {
+      margin: 20px auto;
+      width: 80%;
+      max-width: 600px;
+      overflow-y: scroll;
+      height: 85vh;
+      padding: 10px;
+    }
+    ::-webkit-scrollbar-track {
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar {
+        background-color: transparent;
+    }
+    ::-webkit-scrollbar-button {
+        border-radius: 15px;
+        background-color: rgb(26, 26, 26);
+    }
+    ::-webkit-scrollbar-thumb {
+        background-color: rgb(36, 36, 36);
+        border-radius: 15px;
+    }
+    .month {
+      margin-bottom: 30px;
+    }
+    .month-name {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 5px;
+    }
+    .day {
+      padding: 5px;
+    border-radius: 10px;
+
+      border: 3px solid #1f1f1f;
+      text-align: center;
+    }
+    .current-day {
+      background-color: rgba(102, 102, 102, 0.336);
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+<div class="month-container" id="calendarContainer">
+</div>
+
+<script>
+  let currentMonthIndex = 0;
+
+  function generateCalendar(month, year) {
+    const daysInMonth = new Date(year, month + 1, 0).getDate();
+    const firstDayOfMonth = new Date(year, month, 1).getDay();
+    
+    const container = document.getElementById('calendarContainer');
+    
+    const monthDiv = document.createElement('div');
+    monthDiv.classList.add('month');
+
+    const monthNameDiv = document.createElement('div');
+    monthNameDiv.classList.add('month-name');
+    monthNameDiv.textContent = new Date(year, month).toLocaleString('en-us', { month: 'long' }) + ' ' + year;
+    monthDiv.appendChild(monthNameDiv);
+
+    const gridDiv = document.createElement('div');
+    gridDiv.classList.add('grid');
+
+    for (let i = 0; i < firstDayOfMonth; i++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.classList.add('day');
+      gridDiv.appendChild(dayDiv);
+    }
+
+    for (let day = 1; day <= daysInMonth; day++) {
+      const dayDiv = document.createElement('div');
+      dayDiv.classList.add('day');
+      dayDiv.textContent = day;
+
+      const currentDate = new Date();
+      if (currentDate.getFullYear() === year && currentDate.getMonth() === month && currentDate.getDate() === day) {
+        dayDiv.classList.add('current-day');
+      }
+
+      gridDiv.appendChild(dayDiv);
+    }
+
+    monthDiv.appendChild(gridDiv);
+    container.appendChild(monthDiv);
+  }
+
+  function loadMoreMonths() {
+    const container = document.getElementById('calendarContainer');
+    const scrollPosition = container.scrollTop;
+    const totalHeight = container.scrollHeight;
+    const containerHeight = container.clientHeight;
+
+    if (scrollPosition === 0 && currentMonthIndex > 0) {
+      for (let i = 1; i <= 12; i++) {
+        const prevMonth = (currentMonthIndex - i + 12) % 12;
+        const prevYear = new Date().getFullYear() - Math.floor((currentMonthIndex - i + 12) / 12);
+        generateCalendar(prevMonth, prevYear);
+      }
+      currentMonthIndex -= 12;
+    } else if (scrollPosition + containerHeight >= totalHeight && currentMonthIndex < 12) {
+      for (let i = 1; i <= 12; i++) {
+        const nextMonth = (currentMonthIndex + i) % 12;
+        const nextYear = new Date().getFullYear() + Math.floor((currentMonthIndex + i) / 12);
+        generateCalendar(nextMonth, nextYear);
+      }
+      currentMonthIndex += 12;
+    }
+  }
+
+  window.addEventListener('DOMContentLoaded', () => {
+    const currentDate = new Date();
+    const currentMonth = currentDate.getMonth();
+    const currentYear = currentDate.getFullYear();
+
+    /*for (let i = 5; i >= 1; i--) {
+      const prevMonth = (currentMonth - i + 12) % 12;
+      const prevYear = currentYear - Math.floor((currentMonth - i + 12) / 12);
+      generateCalendar(prevMonth, prevYear);
+    }*/
+
+    generateCalendar(currentMonth, currentYear);
+
+    for (let i = 1; i <= 6; i++) {
+      const nextMonth = (currentMonth + i) % 12;
+      const nextYear = currentYear + Math.floor((currentMonth + i) / 12);
+      generateCalendar(nextMonth, nextYear);
+    }
+    /*
+    document.getElementById('calendarContainer').scrollTop = document.querySelector('.current-day').offsetTop - document.getElementById('calendarContainer').offsetTop;
+    */
+});
+
+  document.getElementById('calendarContainer').addEventListener('scroll', loadMoreMonths);
+</script>
+
+</body>
+</html>

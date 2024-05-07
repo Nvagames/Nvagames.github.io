@@ -1,0 +1,172 @@
+@keyframes showload {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@keyframes hideload {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes showbtnst {
+    from {
+        transform: translate(-50%) scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-50%) scale(1);
+        opacity: 1;
+    }
+}
+@keyframes starthide {
+    from {
+        transform: translate(-50%) scale(1);
+        opacity: 1;
+    }
+    to {
+        transform: translate(-50%) scale(0.5);
+        opacity: 0;
+    }
+} 
+@keyframes gotonav {
+    0% {transform: translate(-50%, -50%); left: 50%; top: 50%}
+    45% {transform: translate(-50%, -50%)  scale(0.5); opacity: 1; left: 4%; top: 5%}
+
+    85% {transform: translate(-50%, -50%)  scale(0.5); opacity: 1; left: 4%; top: 5%}
+    100% {transform: translate(-50%, -50%)  scale(0.1); opacity: 0; left: 4%; top: 5%}
+
+}
+@keyframes mainmenuin {
+    from {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.5);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+    }
+}
+@keyframes mainmenubgin {
+    from {
+        opacity: 0;
+        transform:  scale(1.5);
+    }
+    to {
+        opacity: 1;
+        transform:  scale(1);
+    }
+}
+
+@keyframes mainmenuout {
+    from {
+        opacity: 1;
+        transform: translateY(-50%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(-50%) scale(0.5);
+    }
+    
+}
+@keyframes mainmenubgout {
+    from {
+        opacity: 1;
+        transform:  scale(1);
+    }
+    to {
+        opacity: 0;
+        transform:  scale(1.5);
+    }
+   
+}
+
+@keyframes scrollupwidgetto {
+    from {
+        transform: translateY(100%);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+@keyframes scrollupwidgetfrom {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(100%);
+    }
+}
+@keyframes scrolldownwidgetto {
+    from {
+        transform: translateY(-50%);
+    }
+    to {
+        transform: translateY(-200%);
+    }
+}
+@keyframes scrolldownwidgetfrom {
+    from {
+        transform: translateY(-200%);
+    }
+    to {
+        transform: translateY(-50%);
+    }
+}
+
+@keyframes fixtitlenext {
+    from {
+       left: 50%;
+       transform: translateX(-50%);
+       top: 20px;
+       margin: 0;
+    }
+    to {
+        left: 0%;
+       transform: translateX(-0%);
+       top: 0px;
+       margin: 15;
+    }
+}
+@keyframes settitlenext {
+    from {
+        left: 0%;
+       transform: translateX(-0%);
+       top: 0px;
+       margin: 15;
+    }
+    to {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 20px;
+        margin: 0;
+     }
+}
+
+@keyframes widgetin {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+}
+@keyframes widgetout {
+    from {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    to {
+        transform: translateY(50%);
+        opacity: 0;
+    }
+}
+
+@keyframes UserACWeather {
+    from {transform: translateY(0%); opacity: 1;}
+    to {transform: translateY(40%); opacity: 0;}
+}
+@keyframes ShowDataWeather {
+    from {transform: translateY(40%); opacity: 0;}
+
+    to {transform: translateY(-20%); opacity: 1;}
+}
