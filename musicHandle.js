@@ -33,6 +33,12 @@ channel.onmessage = function(event) {
       console.log('Received info:', info);
       break;
 
+    case 'requestAgain': 
+        console.log('Recived Update Request')
+        channel.postMessage({ type: 'getSongInfo' });
+
+        break;
+
     default:
       console.log('Received unexpected response type:', responseType);
   }
