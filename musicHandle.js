@@ -23,18 +23,17 @@ const channel = new BroadcastChannel('Music');
 channel.postMessage({ type: 'getSongInfo' });
 
 channel.onmessage = function(event) {
-  const responseData = event.data;
-  const responseType = responseData.type;
-
-  switch (responseType) {
-    case 'getSongInfoR':
-
-      const info = responseData;
-      console.log('Received info:', info);
-      
-      break;
-
-    default:
-      console.log('Received unexpected response type:', responseType);
-  }
-};
+    const responseData = event.data;
+    const responseType = responseData.type;
+  
+    switch (responseType) {
+      case 'getSongInfoR':
+        const info = responseData.info; // Corrected accessing the 'info' property
+        console.log('Received info:', info);
+        break;
+  
+      default:
+        console.log('Received unexpected response type:', responseType);
+    }
+  };
+  
