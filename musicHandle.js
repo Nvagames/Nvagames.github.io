@@ -32,7 +32,7 @@ channel.onmessage = function(event) {
       var info = responseData.data;
       console.log('Received info:', info);
 
-      albumimg.src = 'https://nvagames.github.io/Music/' + songAlbumSrc
+      albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
       songtitle.innerHTML = info.songname
       SongArtist.innerHTML = info.songArtist
       break;
