@@ -35,9 +35,7 @@ channel.onmessage = function(event) {
 
       if(info.songAlbumSrc) {
         //albumcover
-        if(albumimg.src === 'https://nvagames.github.io/Music/' + info.songAlbumSrc) {
-
-        } else {
+        
             albumimg.style.animation = 'hidecover  0.5s'
             albumimg.style.opacity = 0
             
@@ -47,20 +45,18 @@ channel.onmessage = function(event) {
             setTimeout(() => {
                 albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
             }, 200);
-        }
+        
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
         albumimg.onload = function() {
-            if(albumimg.src === 'https://nvagames.github.io/Music/' + info.songAlbumSrc) {
-
-            } else {
+           
                 //albumcover
                 albumimg.style.animation = 'showcover  0.5s'
                 albumimg.style.opacity = 1
                 //albumcontainer
                 albumcontainer.style.animation = 'unblur 0.5s'
                 albumcontainer.style.filter = 'none'
-            }
+            
         };
       }
       break;
