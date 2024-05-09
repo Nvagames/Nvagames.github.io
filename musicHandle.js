@@ -45,13 +45,14 @@ channel.onmessage = function(event) {
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
         albumimg.onload = function() {
-            //albumcover
-            albumimg.style.animation = 'showcover  0.5s'
-            albumimg.style.opacity = 1
-            //albumcontainer
-            albumcontainer.style.animation = 'unblur 0.5s'
-            albumcontainer.style.filter = 'none'
-            
+            setTimeout(() => {
+                //albumcover
+                albumimg.style.animation = 'showcover  0.5s'
+                albumimg.style.opacity = 1
+                //albumcontainer
+                albumcontainer.style.animation = 'unblur 0.5s'
+                albumcontainer.style.filter = 'none'
+            }, 450);    
         };
       }
       break;
