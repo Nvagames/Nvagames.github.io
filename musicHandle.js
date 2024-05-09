@@ -4,6 +4,7 @@ MusicChannel.postMessage('Connected!');
 MusicChannel.postMessage('connect', true);
 
 var albumimg = document.getElementById('albumcover')
+var albumcontainer = document.getElementById('albumcontainer')
 
 var songtitle = document.getElementById('SongTitle')
 var SongArtist = document.getElementById('SongArtist')
@@ -34,8 +35,24 @@ channel.onmessage = function(event) {
 
       if(info.songAlbumSrc) {
         albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
+        //albumcover
+        albumimg.style.animation = 'hidecover  0.5s'
+        albumimg.style.opacity = 0
+        //albumcontainer
+        albumcontainer.style.animation = 'blur 0.5s'
+        albumcontainer.style.filter = 'blur(5px)'
+
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
+        albumimg.onload = function() {
+            //albumcover
+            albumimg.style.animation = 'showcover  0.5s'
+            albumimg.style.opacity = 1
+            //albumcontainer
+            albumcontainer.style.animation = 'unblur 0.5s'
+            albumcontainer.style.filter = 'none'
+            
+        };
       }
       break;
 

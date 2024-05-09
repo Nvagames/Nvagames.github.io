@@ -170,3 +170,22 @@
 
     to {transform: translateY(-20%); opacity: 1;}
 }
+
+@keyframes blur {
+    from {filter: none;}
+    to {filter: blur(5px);}
+}
+
+@keyframes unblur {
+    from {filter: blur(5px);}
+    to {filter: none;}  
+}
+
+@keyframes hidecover {
+    from {opacity: 1;}
+    to {opacity: 0;}
+}
+@keyframes showcover {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
