@@ -51,7 +51,7 @@ channel.onmessage = function(event) {
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
         albumimg.onload = function() {
-            if(albumimg.src === info.songAlbumSrc) {
+            if(albumimg.src === 'https://nvagames.github.io/Music/' + info.songAlbumSrc) {
 
             } else {
                 //albumcover
