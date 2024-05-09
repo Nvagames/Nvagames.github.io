@@ -35,7 +35,7 @@ channel.onmessage = function(event) {
 
       if(info.songAlbumSrc) {
         //albumcover
-        if(albumimg.src === info.songAlbumSrc) {
+        if(albumimg.src === 'https://nvagames.github.io/Music/' + info.songAlbumSrc) {
 
         } else {
             albumimg.style.animation = 'hidecover  0.5s'
@@ -46,7 +46,7 @@ channel.onmessage = function(event) {
             albumcontainer.style.filter = 'blur(5px)'
             setTimeout(() => {
                 albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
-            }, 300);
+            }, 200);
         }
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
