@@ -34,25 +34,27 @@ channel.onmessage = function(event) {
       console.log('Received info:', info);
 
       if(info.songAlbumSrc) {
-        albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
         //albumcover
         albumimg.style.animation = 'hidecover  0.5s'
         albumimg.style.opacity = 0
+        
         //albumcontainer
         albumcontainer.style.animation = 'blur 0.5s'
         albumcontainer.style.filter = 'blur(5px)'
-
+        setTimeout(() => {
+            albumimg.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
+        }, 400);
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
         albumimg.onload = function() {
-            setTimeout(() => {
+            
                 //albumcover
                 albumimg.style.animation = 'showcover  0.5s'
                 albumimg.style.opacity = 1
                 //albumcontainer
                 albumcontainer.style.animation = 'unblur 0.5s'
                 albumcontainer.style.filter = 'none'
-            }, 450);    
+                
         };
       }
       break;
