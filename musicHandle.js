@@ -9,6 +9,10 @@ var albumcontainer = document.getElementById('albumcontainer')
 var songtitle = document.getElementById('SongTitle')
 var SongArtist = document.getElementById('SongArtist')
 
+var albumimgnote = document.getElementById('albumcovernote')
+
+var songtitlenote = document.getElementById('SongTitlenote')
+
 /*
 albumimg.src = 'https://sz-games.github.io/Music/assets/covers/DRIPTOOHARD.jpeg'
 songtitle.innerHTML = 'Drip Too Hard'
@@ -48,14 +52,30 @@ channel.onmessage = function(event) {
         
         songtitle.innerHTML = info.songname
         SongArtist.innerHTML = info.songArtist
+
+        albumimgnote.src = 'https://nvagames.github.io/Music/' + info.songAlbumSrc
+        songtitlenote.innerHTML = info.songname
+        
         albumimg.onload = function() {
-           
+             
                 //albumcover
                 albumimg.style.animation = 'showcover  0.5s'
                 albumimg.style.opacity = 1
                 //albumcontainer
                 albumcontainer.style.animation = 'unblur 0.5s'
                 albumcontainer.style.filter = 'none'
+
+        };
+        albumimgnote.onload = function() {
+            document.getElementById('nowplayingsidecont').style.display = 'block'
+            document.getElementById('nowplayingsidecont').style.animation = 'effectnotemusic 1.0s'
+
+            setTimeout(() => {
+                document.getElementById('nowplayingsidecont').style.animation = 'effectnotemusicout 0.5s'
+                setTimeout(() => {
+                    document.getElementById('nowplayingsidecont').style.display = 'none'
+                }, 450);
+            }, 3000);
             
         };
       }
